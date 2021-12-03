@@ -64,11 +64,17 @@
                   </div>
                   <br>
                   <div class="row">
-                    <button type="submit" id="submit" class="btn btn-success">
+                    <button type="submit" id="submit" class="btn btn-success" onclick='a()'>
                       Submit
                     </button>
                   </div>
             </form>
         </div>
+        <script>
+            let submit = document.getElementById('submit');
+            let a = () => {
+                submit.onclick(alert('This is only an exercice!'))
+            }
+        </script>
     </body>
 </html>
