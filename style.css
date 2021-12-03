@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    background-color: rgb(176, 176, 235);
+    text
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    margin-bottom: 25px;
+}
